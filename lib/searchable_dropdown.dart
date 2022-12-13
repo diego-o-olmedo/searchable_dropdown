@@ -376,7 +376,7 @@ class _SearchableDropdownState<T> extends State<SearchableDropdown<T>> {
           ? Theme.of(context).textTheme.subhead
           : Theme.of(context)
               .textTheme
-              .subhead
+              .subtitle1
               .copyWith(color: _disabledIconColor));
   bool get _enabled =>
       widget.items != null &&
